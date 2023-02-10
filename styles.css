@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+
+    /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    position: sticky;
+}
+.navlinks{
+    padding: 0px 15px;
+    color: #00C3A5;
+}
+.page{
+    margin-right: 19%;
+    margin-left: 19%;
+}
+.mypic{
+    margin-right: auto;
+}
+
+.maintitle{
+    text-align: center;
+    color: #00C3A5;
+}
+.star{
+    margin-left: 50%;
+}
+.divtext{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.panels{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.patients{
+    background: #00C3A5 ;
+    border-radius: 15px;
+    width: 275px;
+    height: 300px;
+    padding-right: 30px;
+}
+
+.patientsText{
+    color: white;
+    font-size: 22px;
+}
+
+.doctors{
+    width: 275px;
+    height: 300px;
+    background:#3D83DF;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.clinics{
+    width: 275px;
+    height: 300px;
+    background: black;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.stats{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+
+.grid{
+    display: flex;
+}
+.others{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    width: 1003;
+    height: 156;
+}
+
+.abroad{
+    text-align: center;
+    font-size: 32px;
+    color: #00C3A5;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.abroadText{
+    font-size: 19px;
+    text-align: center;
+    color: #00C3A5;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 100px;
+}
+
+.countries{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countryBoxes {
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    float: left;
+    width: 305px;
+    height: 320px;
+    padding-bottom: 20px;
+  }
+  .countryBoxes:hover {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2); 
+  }
+
+.countryImages{
+    padding-bottom: 20px;
+    padding-right: 5px;
+    border-radius: 10px;
+     width: 310px;
+     height: 278px;
+}
+
+.textDiv{
+    display:flex;
+    justify-content: flex-end;
+    background-color: white;
+    width: 300px;
+}
+
+.end{
+    text-align: center;
+}
+
